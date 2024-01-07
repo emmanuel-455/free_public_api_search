@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    max-width: 800px;
+    margin: auto;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px 0 60px 0;
+    margin-bottom: 26px;
+    background: rgb(32, 218, 209);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    margin: 50px auto;
+    text-align: center;
+}
+
+#input_search {
+    width: 40%;
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    border: 1px ;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+}
+
+#btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    margin-left: 14px;
+    font-size: 18px;
+    background: rgb(155, 149, 236);
+    color: rgb(255, 255, 255);
+}
+h2 {
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+
+h3 {
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+#animal_result div{
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(155, 149, 236);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.api_description {
+    margin-bottom: 13px;
+}
+
+.the_api {
+    margin-bottom: 30px;
+    
+}
